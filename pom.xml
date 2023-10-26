@@ -16,7 +16,7 @@
     <properties>
         <java.version>1.8</java.version>
         <fastjson.version>1.2.12</fastjson.version>
-        <flowable-spring-boot-starter-rest.version>6.7.2</flowable-spring-boot-starter-rest.version>
+        <flowable-spring-boot-starter.version>6.7.2</flowable-spring-boot-starter.version>
     </properties>
     <dependencies>
         <dependency>
@@ -41,8 +41,8 @@
         </dependency>
         <dependency>
             <groupId>org.flowable</groupId>
-            <artifactId>flowable-spring-boot-starter-rest</artifactId>
-            <version>${flowable-spring-boot-starter-rest.version}</version>
+            <artifactId>flowable-spring-boot-starter</artifactId>
+            <version>${flowable-spring-boot-starter.version}</version>
         </dependency>
         <dependency>
             <groupId>com.alibaba</groupId>
